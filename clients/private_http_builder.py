@@ -21,3 +21,4 @@ def get_private_http_client(user: AuthenticationUserDict) -> Client:
         headers={"Authorization": f"Bearer {login_response['token']['accessToken']}"}
 
     )
+
